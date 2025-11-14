@@ -1,0 +1,13 @@
+@use "../../abstract/abstract" as *;
+
+.galery-component-section-2 {
+  @include flex-center;
+  &__right {
+    border: 3px solid $color8;
+    width: 550px;
+  }
+  &__left {
+    border: 5px solid $color8;
+    width: 550px;
+  }
+}
